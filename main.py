@@ -21,6 +21,9 @@ def isFull(const_path):
         if count > 1:
              print('uzip file')
              log.info('unzip file')
+        else:
+            print('nothing to do')
+            log.info('nothing to do')
 
 
 isFull(CONST_ZIP)
