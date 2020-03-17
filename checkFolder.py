@@ -11,7 +11,7 @@ def checkFolder(folderName):
     else:
 
         os.mkdir(folderName)
-
+        return True
         
 
 
