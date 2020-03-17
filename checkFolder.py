@@ -12,8 +12,6 @@ def checkFolder(folderName):
 
         os.mkdir(folderName)
 
-
-checkFolder(ini.zipFile())
         
 
 

@@ -20,5 +20,7 @@ def target():
     target = parser.get('target','path')
     return target
 
-
+def logs():
+    logs = parser.get('logs','path')
+    return logs
 
