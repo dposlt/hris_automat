@@ -23,7 +23,7 @@ def isFull(const_path):
              print('uzip file')
              log.info('unzip file')
         else:
-            log.info('nothing to do')
+            exit() ## neprodukcni, bude nutne zmeninit na sys.exit(0)
 
 
 isFull(CONST_ZIP)
