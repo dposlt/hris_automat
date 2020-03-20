@@ -26,5 +26,8 @@ def isFull(const_path):
             exit() ## neprodukcni, bude nutne zmeninit na sys.exit(0)
 
 
-isFull(CONST_ZIP)
+
+if __name__ == '__main__':
+
+    isFull(CONST_ZIP)
 
